@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #EFF2C0;
+
+}
+
+.name{
+  width: 100%;
+  height: 300px;
+  background: #080F0F;
+  transform: skewY(-5deg);
+}
+
+.name .img{
+  position: absolute;
+  top: 18%;
+  right: 5%;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  transform: skewY(5deg);
+  overflow: hidden;
+}
+
+.name .img img{
+  width:  180px;
+  height: 240px;
+
+}
+
+.name .content{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 25%;
+  transform: skewY(5deg);
+  margin-bottom: 0;
+}
+
+.name .content .p1{
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+
+.name .content .p2{
+  color: white;
+  font-size: 40px;
+}
+
+.info{
+  width: 90%;
+  height: auto;
+  background: #BEA57D;
+  margin:5% auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.info .tituloSeccion{
+  color: black;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bolder;
+  border-bottom: 2px black solid;
+}
+
+.info .tituloInfo {
+  color: black;
+  font-size: large;
+  font-weight: bolder;
+  margin-right: large;
+  display: inline;
+  margin-right: 20px;
+}
+
+.info .infoInfo{
+  color: black;
+  font-size: large;
+  font-weight: normal;
+  display: inline;
+}
+
+.pie {
+  width: 100%;
+  height: auto;
+  background: #BEA57D;
+  padding: 20px;
+  align: center;
+}
+
+.pie .pieContenido{
+  color: white;
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+
+}
